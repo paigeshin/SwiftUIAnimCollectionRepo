@@ -1,4 +1,4 @@
-![mygif.gif](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/6001a9e7-a637-4b8f-bb76-b5a12b639aa3/mygif.gif)
+![mygif.gif](mygif.gif)
 
 ```swift
 //
