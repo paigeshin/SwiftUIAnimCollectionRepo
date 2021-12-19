@@ -1,4 +1,4 @@
-![mygif.gif](my.gif)
+![mygif.gif](mygif.gif)
 
 ```swift
 //
