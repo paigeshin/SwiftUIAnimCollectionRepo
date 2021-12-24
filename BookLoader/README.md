@@ -1,4 +1,4 @@
-![book-loader.gif](mygif.gif)
+![book-loader.gif](book-loader.gif)
 
 ```swift
 

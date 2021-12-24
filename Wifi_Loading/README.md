@@ -1,1 +1,1 @@
-![wifi.gif](mygif.gif)
+![wifi.gif](wifi.gif)
