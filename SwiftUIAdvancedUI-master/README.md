@@ -1,0 +1,1 @@
+[mygif](mygif.gif)
