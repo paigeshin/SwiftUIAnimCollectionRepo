@@ -1,1 +1,1 @@
-[mygif](mygif.gif)
+![mygif.gif](mygif.gif)
