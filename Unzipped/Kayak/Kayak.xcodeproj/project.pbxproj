@@ -1,0 +1,601 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		843C007F24F3996400D8E4CD /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = 843C007E24F3996400D8E4CD /* Message.swift */; };
+		84E1B5B024F27B5E00D20E11 /* KayakApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84E1B5AF24F27B5E00D20E11 /* KayakApp.swift */; };
+		84E1B5B224F27B5E00D20E11 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84E1B5B124F27B5E00D20E11 /* ContentView.swift */; };
+		84E1B5B424F27B5F00D20E11 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84E1B5B324F27B5F00D20E11 /* Assets.xcassets */; };
+		84E1B5B724F27B5F00D20E11 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84E1B5B624F27B5F00D20E11 /* Preview Assets.xcassets */; };
+		84E1B5C224F27B5F00D20E11 /* KayakTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84E1B5C124F27B5F00D20E11 /* KayakTests.swift */; };
+		84E1B5CD24F27B5F00D20E11 /* KayakUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84E1B5CC24F27B5F00D20E11 /* KayakUITests.swift */; };
+		84E1B5DB24F28A9A00D20E11 /* Birds.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84E1B5DA24F28A9A00D20E11 /* Birds.swift */; };
+		84E1B5DD24F28ABC00D20E11 /* Bubbles.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84E1B5DC24F28ABC00D20E11 /* Bubbles.swift */; };
+		84E1B5DF24F28AD800D20E11 /* Fishes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84E1B5DE24F28AD800D20E11 /* Fishes.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		84E1B5BE24F27B5F00D20E11 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 84E1B5A424F27B5E00D20E11 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 84E1B5AB24F27B5E00D20E11;
+			remoteInfo = Kayak;
+		};
+		84E1B5C924F27B5F00D20E11 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 84E1B5A424F27B5E00D20E11 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 84E1B5AB24F27B5E00D20E11;
+			remoteInfo = Kayak;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		843C007E24F3996400D8E4CD /* Message.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Message.swift; sourceTree = "<group>"; };
+		84E1B5AC24F27B5E00D20E11 /* Kayak.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Kayak.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		84E1B5AF24F27B5E00D20E11 /* KayakApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KayakApp.swift; sourceTree = "<group>"; };
+		84E1B5B124F27B5E00D20E11 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		84E1B5B324F27B5F00D20E11 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		84E1B5B624F27B5F00D20E11 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		84E1B5B824F27B5F00D20E11 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84E1B5BD24F27B5F00D20E11 /* KayakTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KayakTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		84E1B5C124F27B5F00D20E11 /* KayakTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KayakTests.swift; sourceTree = "<group>"; };
+		84E1B5C324F27B5F00D20E11 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84E1B5C824F27B5F00D20E11 /* KayakUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KayakUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		84E1B5CC24F27B5F00D20E11 /* KayakUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KayakUITests.swift; sourceTree = "<group>"; };
+		84E1B5CE24F27B5F00D20E11 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84E1B5DA24F28A9A00D20E11 /* Birds.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Birds.swift; sourceTree = "<group>"; };
+		84E1B5DC24F28ABC00D20E11 /* Bubbles.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bubbles.swift; sourceTree = "<group>"; };
+		84E1B5DE24F28AD800D20E11 /* Fishes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fishes.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		84E1B5A924F27B5E00D20E11 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84E1B5BA24F27B5F00D20E11 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84E1B5C524F27B5F00D20E11 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		84E1B5A324F27B5E00D20E11 = {
+			isa = PBXGroup;
+			children = (
+				84E1B5AE24F27B5E00D20E11 /* Kayak */,
+				84E1B5C024F27B5F00D20E11 /* KayakTests */,
+				84E1B5CB24F27B5F00D20E11 /* KayakUITests */,
+				84E1B5AD24F27B5E00D20E11 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		84E1B5AD24F27B5E00D20E11 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				84E1B5AC24F27B5E00D20E11 /* Kayak.app */,
+				84E1B5BD24F27B5F00D20E11 /* KayakTests.xctest */,
+				84E1B5C824F27B5F00D20E11 /* KayakUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		84E1B5AE24F27B5E00D20E11 /* Kayak */ = {
+			isa = PBXGroup;
+			children = (
+				84E1B5AF24F27B5E00D20E11 /* KayakApp.swift */,
+				84E1B5B124F27B5E00D20E11 /* ContentView.swift */,
+				84E1B5DE24F28AD800D20E11 /* Fishes.swift */,
+				84E1B5DC24F28ABC00D20E11 /* Bubbles.swift */,
+				84E1B5DA24F28A9A00D20E11 /* Birds.swift */,
+				843C007E24F3996400D8E4CD /* Message.swift */,
+				84E1B5B324F27B5F00D20E11 /* Assets.xcassets */,
+				84E1B5B824F27B5F00D20E11 /* Info.plist */,
+				84E1B5B524F27B5F00D20E11 /* Preview Content */,
+			);
+			path = Kayak;
+			sourceTree = "<group>";
+		};
+		84E1B5B524F27B5F00D20E11 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				84E1B5B624F27B5F00D20E11 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		84E1B5C024F27B5F00D20E11 /* KayakTests */ = {
+			isa = PBXGroup;
+			children = (
+				84E1B5C124F27B5F00D20E11 /* KayakTests.swift */,
+				84E1B5C324F27B5F00D20E11 /* Info.plist */,
+			);
+			path = KayakTests;
+			sourceTree = "<group>";
+		};
+		84E1B5CB24F27B5F00D20E11 /* KayakUITests */ = {
+			isa = PBXGroup;
+			children = (
+				84E1B5CC24F27B5F00D20E11 /* KayakUITests.swift */,
+				84E1B5CE24F27B5F00D20E11 /* Info.plist */,
+			);
+			path = KayakUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		84E1B5AB24F27B5E00D20E11 /* Kayak */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84E1B5D124F27B5F00D20E11 /* Build configuration list for PBXNativeTarget "Kayak" */;
+			buildPhases = (
+				84E1B5A824F27B5E00D20E11 /* Sources */,
+				84E1B5A924F27B5E00D20E11 /* Frameworks */,
+				84E1B5AA24F27B5E00D20E11 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Kayak;
+			productName = Kayak;
+			productReference = 84E1B5AC24F27B5E00D20E11 /* Kayak.app */;
+			productType = "com.apple.product-type.application";
+		};
+		84E1B5BC24F27B5F00D20E11 /* KayakTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84E1B5D424F27B5F00D20E11 /* Build configuration list for PBXNativeTarget "KayakTests" */;
+			buildPhases = (
+				84E1B5B924F27B5F00D20E11 /* Sources */,
+				84E1B5BA24F27B5F00D20E11 /* Frameworks */,
+				84E1B5BB24F27B5F00D20E11 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				84E1B5BF24F27B5F00D20E11 /* PBXTargetDependency */,
+			);
+			name = KayakTests;
+			productName = KayakTests;
+			productReference = 84E1B5BD24F27B5F00D20E11 /* KayakTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		84E1B5C724F27B5F00D20E11 /* KayakUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84E1B5D724F27B5F00D20E11 /* Build configuration list for PBXNativeTarget "KayakUITests" */;
+			buildPhases = (
+				84E1B5C424F27B5F00D20E11 /* Sources */,
+				84E1B5C524F27B5F00D20E11 /* Frameworks */,
+				84E1B5C624F27B5F00D20E11 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				84E1B5CA24F27B5F00D20E11 /* PBXTargetDependency */,
+			);
+			name = KayakUITests;
+			productName = KayakUITests;
+			productReference = 84E1B5C824F27B5F00D20E11 /* KayakUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		84E1B5A424F27B5E00D20E11 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1200;
+				LastUpgradeCheck = 1200;
+				TargetAttributes = {
+					84E1B5AB24F27B5E00D20E11 = {
+						CreatedOnToolsVersion = 12.0;
+					};
+					84E1B5BC24F27B5F00D20E11 = {
+						CreatedOnToolsVersion = 12.0;
+						TestTargetID = 84E1B5AB24F27B5E00D20E11;
+					};
+					84E1B5C724F27B5F00D20E11 = {
+						CreatedOnToolsVersion = 12.0;
+						TestTargetID = 84E1B5AB24F27B5E00D20E11;
+					};
+				};
+			};
+			buildConfigurationList = 84E1B5A724F27B5E00D20E11 /* Build configuration list for PBXProject "Kayak" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 84E1B5A324F27B5E00D20E11;
+			productRefGroup = 84E1B5AD24F27B5E00D20E11 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				84E1B5AB24F27B5E00D20E11 /* Kayak */,
+				84E1B5BC24F27B5F00D20E11 /* KayakTests */,
+				84E1B5C724F27B5F00D20E11 /* KayakUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		84E1B5AA24F27B5E00D20E11 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84E1B5B724F27B5F00D20E11 /* Preview Assets.xcassets in Resources */,
+				84E1B5B424F27B5F00D20E11 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84E1B5BB24F27B5F00D20E11 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84E1B5C624F27B5F00D20E11 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		84E1B5A824F27B5E00D20E11 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84E1B5B224F27B5E00D20E11 /* ContentView.swift in Sources */,
+				84E1B5B024F27B5E00D20E11 /* KayakApp.swift in Sources */,
+				84E1B5DB24F28A9A00D20E11 /* Birds.swift in Sources */,
+				843C007F24F3996400D8E4CD /* Message.swift in Sources */,
+				84E1B5DF24F28AD800D20E11 /* Fishes.swift in Sources */,
+				84E1B5DD24F28ABC00D20E11 /* Bubbles.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84E1B5B924F27B5F00D20E11 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84E1B5C224F27B5F00D20E11 /* KayakTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84E1B5C424F27B5F00D20E11 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84E1B5CD24F27B5F00D20E11 /* KayakUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		84E1B5BF24F27B5F00D20E11 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 84E1B5AB24F27B5E00D20E11 /* Kayak */;
+			targetProxy = 84E1B5BE24F27B5F00D20E11 /* PBXContainerItemProxy */;
+		};
+		84E1B5CA24F27B5F00D20E11 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 84E1B5AB24F27B5E00D20E11 /* Kayak */;
+			targetProxy = 84E1B5C924F27B5F00D20E11 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		84E1B5CF24F27B5F00D20E11 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		84E1B5D024F27B5F00D20E11 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		84E1B5D224F27B5F00D20E11 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Kayak/Preview Content\"";
+				DEVELOPMENT_TEAM = 5BXN67M73D;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = Kayak/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.nimbbble.Kayak;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		84E1B5D324F27B5F00D20E11 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Kayak/Preview Content\"";
+				DEVELOPMENT_TEAM = 5BXN67M73D;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = Kayak/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.nimbbble.Kayak;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		84E1B5D524F27B5F00D20E11 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5BXN67M73D;
+				INFOPLIST_FILE = KayakTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.nimbbble.KayakTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Kayak.app/Kayak";
+			};
+			name = Debug;
+		};
+		84E1B5D624F27B5F00D20E11 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5BXN67M73D;
+				INFOPLIST_FILE = KayakTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.nimbbble.KayakTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Kayak.app/Kayak";
+			};
+			name = Release;
+		};
+		84E1B5D824F27B5F00D20E11 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5BXN67M73D;
+				INFOPLIST_FILE = KayakUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.nimbbble.KayakUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Kayak;
+			};
+			name = Debug;
+		};
+		84E1B5D924F27B5F00D20E11 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5BXN67M73D;
+				INFOPLIST_FILE = KayakUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.nimbbble.KayakUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Kayak;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		84E1B5A724F27B5E00D20E11 /* Build configuration list for PBXProject "Kayak" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84E1B5CF24F27B5F00D20E11 /* Debug */,
+				84E1B5D024F27B5F00D20E11 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		84E1B5D124F27B5F00D20E11 /* Build configuration list for PBXNativeTarget "Kayak" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84E1B5D224F27B5F00D20E11 /* Debug */,
+				84E1B5D324F27B5F00D20E11 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		84E1B5D424F27B5F00D20E11 /* Build configuration list for PBXNativeTarget "KayakTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84E1B5D524F27B5F00D20E11 /* Debug */,
+				84E1B5D624F27B5F00D20E11 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		84E1B5D724F27B5F00D20E11 /* Build configuration list for PBXNativeTarget "KayakUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84E1B5D824F27B5F00D20E11 /* Debug */,
+				84E1B5D924F27B5F00D20E11 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 84E1B5A424F27B5E00D20E11 /* Project object */;
+}

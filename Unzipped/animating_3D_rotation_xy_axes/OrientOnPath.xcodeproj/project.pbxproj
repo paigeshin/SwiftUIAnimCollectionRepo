@@ -1,0 +1,564 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		84803C5725B9135E003476E6 /* OrientOnPath WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 84803C5625B9135E003476E6 /* OrientOnPath WatchKit App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		84803C5C25B91360003476E6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84803C5B25B91360003476E6 /* Assets.xcassets */; };
+		84803C6325B91361003476E6 /* OrientOnPath WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 84803C6225B91361003476E6 /* OrientOnPath WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		84803C6825B91361003476E6 /* OrientOnPathApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84803C6725B91361003476E6 /* OrientOnPathApp.swift */; };
+		84803C6A25B91361003476E6 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84803C6925B91361003476E6 /* ContentView.swift */; };
+		84803C6C25B91361003476E6 /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84803C6B25B91361003476E6 /* NotificationController.swift */; };
+		84803C6E25B91361003476E6 /* NotificationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84803C6D25B91361003476E6 /* NotificationView.swift */; };
+		84803C7025B91361003476E6 /* ComplicationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84803C6F25B91361003476E6 /* ComplicationController.swift */; };
+		84803C7225B91361003476E6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84803C7125B91361003476E6 /* Assets.xcassets */; };
+		84803C7525B91361003476E6 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84803C7425B91361003476E6 /* Preview Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		84803C5825B9135E003476E6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 84803C4C25B9135E003476E6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 84803C5525B9135E003476E6;
+			remoteInfo = "OrientOnPath WatchKit App";
+		};
+		84803C6425B91361003476E6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 84803C4C25B9135E003476E6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 84803C6125B91361003476E6;
+			remoteInfo = "OrientOnPath WatchKit Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		84803C7D25B91361003476E6 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				84803C6325B91361003476E6 /* OrientOnPath WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84803C8125B91361003476E6 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				84803C5725B9135E003476E6 /* OrientOnPath WatchKit App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		84803C5225B9135E003476E6 /* OrientOnPath.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OrientOnPath.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		84803C5625B9135E003476E6 /* OrientOnPath WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "OrientOnPath WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		84803C5B25B91360003476E6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		84803C5D25B91360003476E6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84803C6225B91361003476E6 /* OrientOnPath WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "OrientOnPath WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		84803C6725B91361003476E6 /* OrientOnPathApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrientOnPathApp.swift; sourceTree = "<group>"; };
+		84803C6925B91361003476E6 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		84803C6B25B91361003476E6 /* NotificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
+		84803C6D25B91361003476E6 /* NotificationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationView.swift; sourceTree = "<group>"; };
+		84803C6F25B91361003476E6 /* ComplicationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComplicationController.swift; sourceTree = "<group>"; };
+		84803C7125B91361003476E6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		84803C7425B91361003476E6 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		84803C7625B91361003476E6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84803C7725B91361003476E6 /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		84803C5F25B91361003476E6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		84803C4B25B9135E003476E6 = {
+			isa = PBXGroup;
+			children = (
+				84803C5A25B9135E003476E6 /* OrientOnPath WatchKit App */,
+				84803C6625B91361003476E6 /* OrientOnPath WatchKit Extension */,
+				84803C5325B9135E003476E6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		84803C5325B9135E003476E6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				84803C5225B9135E003476E6 /* OrientOnPath.app */,
+				84803C5625B9135E003476E6 /* OrientOnPath WatchKit App.app */,
+				84803C6225B91361003476E6 /* OrientOnPath WatchKit Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		84803C5A25B9135E003476E6 /* OrientOnPath WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				84803C5B25B91360003476E6 /* Assets.xcassets */,
+				84803C5D25B91360003476E6 /* Info.plist */,
+			);
+			path = "OrientOnPath WatchKit App";
+			sourceTree = "<group>";
+		};
+		84803C6625B91361003476E6 /* OrientOnPath WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				84803C6725B91361003476E6 /* OrientOnPathApp.swift */,
+				84803C6925B91361003476E6 /* ContentView.swift */,
+				84803C6B25B91361003476E6 /* NotificationController.swift */,
+				84803C6D25B91361003476E6 /* NotificationView.swift */,
+				84803C6F25B91361003476E6 /* ComplicationController.swift */,
+				84803C7125B91361003476E6 /* Assets.xcassets */,
+				84803C7625B91361003476E6 /* Info.plist */,
+				84803C7725B91361003476E6 /* PushNotificationPayload.apns */,
+				84803C7325B91361003476E6 /* Preview Content */,
+			);
+			path = "OrientOnPath WatchKit Extension";
+			sourceTree = "<group>";
+		};
+		84803C7325B91361003476E6 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				84803C7425B91361003476E6 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		84803C5125B9135E003476E6 /* OrientOnPath */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84803C8225B91361003476E6 /* Build configuration list for PBXNativeTarget "OrientOnPath" */;
+			buildPhases = (
+				84803C5025B9135E003476E6 /* Resources */,
+				84803C8125B91361003476E6 /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				84803C5925B9135E003476E6 /* PBXTargetDependency */,
+			);
+			name = OrientOnPath;
+			productName = OrientOnPath;
+			productReference = 84803C5225B9135E003476E6 /* OrientOnPath.app */;
+			productType = "com.apple.product-type.application.watchapp2-container";
+		};
+		84803C5525B9135E003476E6 /* OrientOnPath WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84803C7E25B91361003476E6 /* Build configuration list for PBXNativeTarget "OrientOnPath WatchKit App" */;
+			buildPhases = (
+				84803C5425B9135E003476E6 /* Resources */,
+				84803C7D25B91361003476E6 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				84803C6525B91361003476E6 /* PBXTargetDependency */,
+			);
+			name = "OrientOnPath WatchKit App";
+			productName = "OrientOnPath WatchKit App";
+			productReference = 84803C5625B9135E003476E6 /* OrientOnPath WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		84803C6125B91361003476E6 /* OrientOnPath WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84803C7A25B91361003476E6 /* Build configuration list for PBXNativeTarget "OrientOnPath WatchKit Extension" */;
+			buildPhases = (
+				84803C5E25B91361003476E6 /* Sources */,
+				84803C5F25B91361003476E6 /* Frameworks */,
+				84803C6025B91361003476E6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "OrientOnPath WatchKit Extension";
+			productName = "OrientOnPath WatchKit Extension";
+			productReference = 84803C6225B91361003476E6 /* OrientOnPath WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		84803C4C25B9135E003476E6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1230;
+				LastUpgradeCheck = 1230;
+				TargetAttributes = {
+					84803C5125B9135E003476E6 = {
+						CreatedOnToolsVersion = 12.3;
+					};
+					84803C5525B9135E003476E6 = {
+						CreatedOnToolsVersion = 12.3;
+					};
+					84803C6125B91361003476E6 = {
+						CreatedOnToolsVersion = 12.3;
+					};
+				};
+			};
+			buildConfigurationList = 84803C4F25B9135E003476E6 /* Build configuration list for PBXProject "OrientOnPath" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 84803C4B25B9135E003476E6;
+			productRefGroup = 84803C5325B9135E003476E6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				84803C5125B9135E003476E6 /* OrientOnPath */,
+				84803C5525B9135E003476E6 /* OrientOnPath WatchKit App */,
+				84803C6125B91361003476E6 /* OrientOnPath WatchKit Extension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		84803C5025B9135E003476E6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84803C5425B9135E003476E6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84803C5C25B91360003476E6 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84803C6025B91361003476E6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84803C7525B91361003476E6 /* Preview Assets.xcassets in Resources */,
+				84803C7225B91361003476E6 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		84803C5E25B91361003476E6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84803C6C25B91361003476E6 /* NotificationController.swift in Sources */,
+				84803C6A25B91361003476E6 /* ContentView.swift in Sources */,
+				84803C7025B91361003476E6 /* ComplicationController.swift in Sources */,
+				84803C6825B91361003476E6 /* OrientOnPathApp.swift in Sources */,
+				84803C6E25B91361003476E6 /* NotificationView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		84803C5925B9135E003476E6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 84803C5525B9135E003476E6 /* OrientOnPath WatchKit App */;
+			targetProxy = 84803C5825B9135E003476E6 /* PBXContainerItemProxy */;
+		};
+		84803C6525B91361003476E6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 84803C6125B91361003476E6 /* OrientOnPath WatchKit Extension */;
+			targetProxy = 84803C6425B91361003476E6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		84803C7825B91361003476E6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		84803C7925B91361003476E6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		84803C7B25B91361003476E6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"OrientOnPath WatchKit Extension/Preview Content\"";
+				DEVELOPMENT_TEAM = 5BXN67M73D;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "OrientOnPath WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.nimbbble.OrientOnPath.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 7.2;
+			};
+			name = Debug;
+		};
+		84803C7C25B91361003476E6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"OrientOnPath WatchKit Extension/Preview Content\"";
+				DEVELOPMENT_TEAM = 5BXN67M73D;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "OrientOnPath WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.nimbbble.OrientOnPath.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 7.2;
+			};
+			name = Release;
+		};
+		84803C7F25B91361003476E6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5BXN67M73D;
+				IBSC_MODULE = OrientOnPath_WatchKit_Extension;
+				INFOPLIST_FILE = "OrientOnPath WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = com.nimbbble.OrientOnPath.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 7.2;
+			};
+			name = Debug;
+		};
+		84803C8025B91361003476E6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5BXN67M73D;
+				IBSC_MODULE = OrientOnPath_WatchKit_Extension;
+				INFOPLIST_FILE = "OrientOnPath WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = com.nimbbble.OrientOnPath.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 7.2;
+			};
+			name = Release;
+		};
+		84803C8325B91361003476E6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5BXN67M73D;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.nimbbble.OrientOnPath;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		84803C8425B91361003476E6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5BXN67M73D;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.nimbbble.OrientOnPath;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		84803C4F25B9135E003476E6 /* Build configuration list for PBXProject "OrientOnPath" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84803C7825B91361003476E6 /* Debug */,
+				84803C7925B91361003476E6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		84803C7A25B91361003476E6 /* Build configuration list for PBXNativeTarget "OrientOnPath WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84803C7B25B91361003476E6 /* Debug */,
+				84803C7C25B91361003476E6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		84803C7E25B91361003476E6 /* Build configuration list for PBXNativeTarget "OrientOnPath WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84803C7F25B91361003476E6 /* Debug */,
+				84803C8025B91361003476E6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		84803C8225B91361003476E6 /* Build configuration list for PBXNativeTarget "OrientOnPath" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84803C8325B91361003476E6 /* Debug */,
+				84803C8425B91361003476E6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 84803C4C25B9135E003476E6 /* Project object */;
+}
